@@ -17,6 +17,7 @@ import { useParams} from "react-router-dom";
 import { useEffect } from "react";  // CORRECT!
 import { DataProvider } from './context/DataContext.jsx';
 import SimpleAdminDashboard from './ui/landignPage/admin/SimpleAdminDashboard.jsx';
+import CardsPage from './ui/CardsPage.jsx';
 
 
 
