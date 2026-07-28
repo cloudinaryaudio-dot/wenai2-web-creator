@@ -206,31 +206,35 @@ export function HeroSection() {
           </div>
 
           {/* 3D Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-            {/* Primary Button */}
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16 flex-wrap">
             <button
-      onClick={() => {
-        window.location.hash = "#templates";
-      }}
-      className="group relative px-10 py-6 text-xl font-bold text-white rounded-2xl border-2 border-amber-400/30 overflow-hidden transform hover:scale-110 hover:-translate-y-2 transition-all duration-500 flex items-center justify-center shadow-lg hover:shadow-2xl"
-      style={{
-        background:
-          "linear-gradient(to right, #d4745f, #fbbf24, #d4745f)",
-        boxShadow: "0 15px 40px rgba(212, 116, 95, 0.3)",
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.boxShadow =
-          "0 20px 50px rgba(212, 116, 95, 0.5)";
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.boxShadow =
-          "0 15px 40px rgba(212, 116, 95, 0.3)";
-      }}
-    >
-      <Sparkles className="mr-3 h-6 w-6 group-hover:animate-spin" />
-      Explore Designs
-      <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
-    </button>
+              onClick={() => { window.location.hash = "#templates"; }}
+              className="group relative px-10 py-6 text-xl font-bold text-white rounded-2xl border-2 border-amber-400/30 overflow-hidden transform hover:scale-110 hover:-translate-y-2 transition-all duration-500 flex items-center justify-center shadow-lg hover:shadow-2xl"
+              style={{ background: "linear-gradient(to right, #d4745f, #fbbf24, #d4745f)", boxShadow: "0 15px 40px rgba(212, 116, 95, 0.3)" }}
+            >
+              <Sparkles className="mr-3 h-6 w-6 group-hover:animate-spin" />
+              Explore Designs
+              <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
+            </button>
+
+            <button
+              onClick={() => navigate("/cards")}
+              className="group relative px-10 py-6 text-xl font-bold text-white rounded-2xl border-2 border-white/40 overflow-hidden transform hover:scale-110 hover:-translate-y-2 transition-all duration-500 flex items-center justify-center shadow-lg hover:shadow-2xl"
+              style={{ background: "linear-gradient(135deg, #8b5cf6 0%, #ec4899 50%, #f43f5e 100%)", boxShadow: "0 15px 40px rgba(139, 92, 246, 0.35)" }}
+            >
+              <Heart className="mr-3 h-6 w-6 group-hover:scale-125 transition-transform" />
+              Create a Card
+              <ArrowRight className="ml-3 h-6 w-6 group-hover:translate-x-2 transition-transform duration-300" />
+            </button>
+
+            <button
+              onClick={() => navigate("/admin")}
+              className="group relative px-8 py-6 text-lg font-bold text-white rounded-2xl border-2 border-white/40 transform hover:scale-105 hover:-translate-y-1 transition-all duration-500 flex items-center justify-center shadow-lg hover:shadow-2xl"
+              style={{ background: "rgba(15, 23, 42, 0.75)", backdropFilter: "blur(12px)" }}
+            >
+              <Star className="mr-2 h-5 w-5 group-hover:animate-pulse" />
+              Admin
+            </button>
 
             {/* Secondary Button */}
             {/* <button
