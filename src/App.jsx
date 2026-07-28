@@ -17,6 +17,7 @@ import { useParams} from "react-router-dom";
 import { useEffect } from "react";  // CORRECT!
 import { DataProvider } from './context/DataContext.jsx';
 import SimpleAdminDashboard from './ui/landignPage/admin/SimpleAdminDashboard.jsx';
+import CardsPage from './ui/CardsPage.jsx';
 
 
 
@@ -98,6 +99,7 @@ useEffect(() => {
           <Route path="/" element={<LandingPage  />} />
           <Route path="/admin" element={<AdminDashboard />} />
           <Route path="/admin-dashboard" element={<SimpleAdminDashboard />} />
+          <Route path="/cards" element={<CardsPage />} />
           <Route path="/Royal/:slug/:id/:guestId?" element={<WeddingInvitationPage />} />
           <Route path="/Engagement/:slug/:id/:guestId?" element={<EngageInvitationPage />} />
           <Route path="/Biodata/:slug/:id" element={<Biodata />} />
