@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "src": "^/Royal/([^/]+)/([^/]+)$",
+      "dest": "/api/og?theme=Royal&slug=$1&id=$2"
+    },
+    {
+      "src": "^/api/og",
+      "dest": "/api/og"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
+}

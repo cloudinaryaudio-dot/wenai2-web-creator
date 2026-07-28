@@ -1,0 +1,418 @@
+export const weddingUsersData = {
+  user1: {
+    
+
+    2. GuestNamesData: {
+      guestData: [
+        {
+          names: [
+            "ठा. सा. रणवीर सिंह उमठ जी",
+            "ठा. सा. लक्ष्मणलाल चौधरी जी",
+            "ठा. सा. भेरूलाल पाटीदार जी",
+            "ठा. सा. गजेंद्रसिंह चौहान जी",
+          ],
+        },
+        {
+          thikana: "ठिकाना राजगढ़",
+        },
+        {
+          sa_parivar: "सा परिवार",
+        },
+      ],
+    },
+
+    3.  WelcomeCardData: {
+      welcomeTitle: "Parvati Weds Shiv",
+    },
+
+    4.RoyalTemplateFirstPageData: {
+      
+      royalMusicSrc: "/jodha.mp3",
+
+    },
+
+    5. RoyalTemplateSecondPageData: {
+      weddingDateISO: "2026-02-21T21:00:00",
+
+      weddingDateText: "21 फ़रवरी 2026",
+      weddingTimeText: "रात 9:00 बजे",
+    },
+
+    6. AutoScrollBGThirdPageData: {
+      desktopImages: [
+        "https://i.pinimg.com/1200x/70/d1/25/70d12521f2f1f44c3eb932608cebb39f.jpg",
+        "https://i.pinimg.com/1200x/77/25/5e/77255eb21825680305b1d006b96976f4.jpg",
+        "https://i.pinimg.com/1200x/60/cd/40/60cd4089cbfa74dfd1a792bad9f97bd5.jpg",
+        "https://i.pinimg.com/736x/16/51/b9/1651b954678912d703c0ded8e9a1fc19.jpg",
+        "https://i.pinimg.com/1200x/1b/b7/42/1bb74288cf2a2b4e504f6efdc946ef10.jpg",
+        "https://i.pinimg.com/736x/ee/c7/24/eec7241d7b647e46a262ceec5ecd30b5.jpg",
+        "https://i.pinimg.com/1200x/48/94/83/4894839034ba2e0ab63d41028ec0ad28.jpg",
+        "https://i.pinimg.com/736x/df/84/aa/df84aafb7d8c235c6cffe4fc16e55fd8.jpg",
+        "https://i.pinimg.com/1200x/0a/9e/b5/0a9eb59ae2d0703d487c8c2307efd9fc.jpg",
+        "https://i.pinimg.com/1200x/58/b0/8a/58b08a98eaa6a6b8b8e260f3136c6905.jpg",
+      ],
+
+      mobileImages: [
+        "https://i.pinimg.com/736x/b5/19/37/b51937aa4ee336adfc0e61b7a006678c.jpg",
+        "https://i.pinimg.com/736x/33/29/c0/3329c02bb59a71072e0f0a375a424cc8.jpg",
+        "https://i.pinimg.com/736x/b8/06/7d/b8067d405daef75785f34c99aae3623b.jpg",
+        "https://i.pinimg.com/736x/6c/5b/b2/6c5bb2d4cc60cb97f699be665ed78321.jpg",
+        "https://i.pinimg.com/1200x/a7/35/30/a73530337b38bab74dac7d53beb99136.jpg",
+        "https://i.pinimg.com/736x/2c/0b/61/2c0b618269d9f97f6c3d9a57ecf8e03d.jpg",
+      ],
+
+      coupleTitle: "Parvati",
+      coupleTitleHighlightLeft: "Weds",
+      coupleTitleHighlightRight: "Shiv",
+
+      coupleDescription:
+        "हम आपके साथ इस खास पल में खुशियाँ बाँटने के लिए आमंत्रित करते हैं। कृपया आकर अपनी शुभकामनाएँ दे।",
+    },
+
+    7. BrideGroomFourthPageData: {
+      weddingCards: [
+        {
+          name: "सु. पार्वती चौहान",
+          details: [
+            "सुपोत्री : ठा.सा. राजेंद्रसिंहजी चौहान",
+            "सुपुत्री : कुं.सा. दीपिकासिंह चौहान",
+            "ठि. खजूरीखेड़ा, जि. धार",
+          ],          
+
+          image:
+            "https://i.pinimg.com/1200x/83/da/4a/83da4aab6a972a7efb1cfcdfb321a5bc.jpg",
+        },
+        {
+          role: "वर",
+          name: "ची. शिव सिसोदिया",
+          details: [
+            "सुपोत्रा : ठा.सा. भैरोंसिंह सिसोदिया",
+            "सुपुत्र : कुं.सा. जयसिंह सिसोदिया",
+            "ठि. तराना, जि. उज्जैन",
+          ],
+          image:
+            "https://i.pinimg.com/1200x/5d/71/9b/5d719bff3d8ad1453c88d7bc50516136.jpg",
+        },
+      ],
+    },
+
+    8. FunctionCardsFifthPageData: {
+      weddingEvents: [
+        {
+          functionName: "रोका समारोह",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "शाम 6:00 बजे",
+          place: "शर्मा विला, जयपुर",
+        },
+        {
+          
+          functionName: "मेहंदी समारोह",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "शाम 5:00 बजे",
+          place: "शर्मा विला, जयपुर",
+        },
+        {
+          functionName: "हल्दी समारोह",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "सुबह 10:30 बजे",
+          place: "शर्मा विला, जयपुर",
+          
+        },
+        {
+          functionName: "संगीत समारोह",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "रात 8:00 बजे",
+          place: "शर्मा विला, जयपुर",
+          
+        },
+        {
+          functionName: "विवाह समारोह",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "रात 9:00 बजे",
+          place: "शर्मा विला, जयपुर",
+          
+        },
+        {
+          functionName: "जयमाला",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "शाम 6:30 बजे",
+          place: "शर्मा विला, जयपुर",
+          
+        },
+        {
+          functionName: "माता एवं गणेश पूजन",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "शाम 5:45 बजे",
+          place: "शर्मा विला, जयपुर",
+          
+        },
+        {
+          functionName: "मंडप पूजन",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "शाम 7:00 बजे",
+          place: "मंडप स्थल, शर्मा विला",
+          
+        },
+        {
+          functionName: "घर विवाह",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "सुबह 11:00 बजे",
+          place: "नवरात्रि घर, जयपुर",
+          
+        },
+        {
+          functionName: "गंगाजी पूजन",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "दोपहर 1:30 बजे",
+          place: "पवित्र घाट, जयपुर (या विला)",
+          
+        },
+        {
+          functionName: "शुभलग्न",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "दोपहर 2:15 बजे",
+          place: "शर्मा विला, जयपुर",
+          
+        },
+        {
+          functionName: "Reception",
+          date: "21 फ़रवरी 2026",
+          muhuratTime: "रात 8:00 बजे",
+          place: "शर्मा बॉलरूम, जयपुर",
+          
+        },
+      ],
+
+      
+      pratibhojCard: {
+        functionName: "प्रतिभोज",
+        date: "21 फ़रवरी 2026",
+        muhuratTime: "दोपहर 12:00 बजे से",
+        place: "शर्मा विला, जयपुर",
+        },
+
+      baraatNotice: {
+        description:
+          "सादर सूचित किया जाता है कि बारात ठा.सा. भैरोंसिंह सिसोदिया जी, ग्राम तराना, जिला उज्जैन (म.प्र.) के यहाँ सादर प्रस्थान करेगी।",
+        date: "21 फ़रवरी 2026",
+        time: "शाम 07:30 बजे",
+      },
+
+      map: {
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%20%E0%A4%B8%E0%A5%81%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%B2%E0%A4%96%E0%A5%87%E0%A4%A1%E0%A4%BC%E0%A4%BE%2C%20%E0%A4%AE%E0%A4%B9%E0%A4%BF%E0%A4%A6%E0%A4%AA%E0%A5%81%E0%A4%B0%2C%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%B8%2C%20%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A5%87%E0%A4%B6",
+        
+      },
+    },
+
+    9.ImageCardSectionSixPageData: {
+      // images
+    },
+
+    10.WeddingVideoSeventhPageData: {
+        // video
+    },
+
+    11.WishesEightPageData: {
+      //wishes
+    },
+
+    12.VenueNinePageData: {
+      venue: {
+        name: "राजमहल बैंक्वेट हॉल, जयपुर",
+        address: "सी-स्कीम, जयपुर, राजस्थान - 302001",
+        city: "Jaipur",
+        state: "Rajasthan",
+        imageUrl:
+          "https://i.pinimg.com/1200x/d0/95/17/d0951711f28bd3e8e38a0bd842b241a7.jpg",
+      },
+
+      event: {
+        date: "21 फ़रवरी 2026",
+        time: "शाम 7:00 बजे",
+        title: "शादी का स्थान",
+      },
+
+      map: {
+        latitude: 26.9124,
+        longitude: 75.7873,
+        googleMapUrl: "https://www.google.com/maps?q=26.9124,75.7873",
+      },
+
+      contact: {
+        phone: "+91 98765 43210",
+        telLink: "tel:+919876543210",
+      },
+
+      buttons: {
+        directionLabel: "दिशा प्राप्त करें",
+        callLabel: "Call",
+      },
+    },
+
+    13.NamesTenthPageData: {
+      preshakData: {
+        familyName: "🌸 चौहान परिवार 🌸",
+        welcomeMessage: "आपका हार्दिक अभिनंदन एवं स्वागत करता है",
+        address: {
+          location: "ठि. खजूरीखेड़ा",
+          tehsil: "त. बदनावर",
+          district: "जिला-धार",
+          mapUrl:
+            "https://www.google.com/maps/search/?api=1&query=XVG9+33W, Maharajganj, Madhya Pradesh 453551",
+        },
+        familyMembers: [
+          {
+            name: "कुं. नरेन्द्रसिंह चौहान",
+            phones: ["9925587616"],
+            image:
+              "https://i.pinimg.com/736x/09/51/e6/0951e66260f16d3083fd4e12c1348082.jpg",
+          },
+          {
+            name: "श्रीमती सुनीता चौहान",
+            phones: ["7685588070"],
+            image:
+              "https://i.pinimg.com/736x/5e/67/e1/5e67e1d3f70877a5d45764e10145ee23.jpg",
+          },
+          {
+            name: "श्री राजेश चौहान",
+            phones: ["9876555210"],
+            image:
+              "https://i.pinimg.com/1200x/9f/93/9c/9f939c171b6bda5259e8e0e8bf871fe6.jpg",
+          },
+        ],
+      },
+
+      weddingGroups: [
+        {
+          title: "दर्शन अभिलाषी",
+          icon: "Eye",
+          names: [
+            "श्री विजय सिंह",
+            "श्रीमती मीना देवी",
+            "श्री प्रकाश गुप्ता",
+            "श्रीमती आशा गुप्ता",
+            "श्री महेश यादव",
+          ],
+        },
+        {
+          title: "स्वागतानुसार",
+          icon: "HandHeart",
+          names: [
+            "श्री रवि कुमार",
+            "श्री संजय वर्मा",
+            "श्री अजय पटेल",
+            "श्रीमती प्रिया शर्मा",
+          ],
+        },
+        {
+          title: "विनीत",
+          icon: "UserCheck",
+          names: [
+            "श्री मोहन लाल",
+            "श्रीमती गीता देवी",
+            "श्री सुरेश कुमार",
+            "श्रीमती कमला देवी",
+            "श्री दिनेश शर्मा",
+          ],
+        },
+        {
+          title: "ननिहाल पक्ष",
+          icon: "Home",
+          names: [
+            "श्री रामप्रसाद वर्मा",
+            "श्रीमती सरला देवी",
+            "श्री कृष्ण मोहन",
+            "श्रीमती राधा देवी",
+          ],
+          childNote:
+            "सपनों सा सजेगा ये दिन सुहाना 💍 प्यार भरे दिल से है आपको बुलाना 💖 हँसी, खुशी और दुआएँ साथ लाना, शादी में ज़रूर पधार जाना! 🎉।",
+        },
+        {
+          title: "प्रातिष्ठान",
+          icon: "Building2",
+          names: [
+            "चौहान फार्म",
+            "गौड़ मिनरल वॉटर प्लांट",
+            "सेन फूड ग्रेन स्टोर",
+            "राठौड़ कंस्ट्रक्शन",
+            "चौहान ऑर्गेनिक फार्मिंग",
+          ],
+        },
+      ],
+
+      share: {
+        title: "Wedding Invitation",
+        text: "You are cordially invited to our wedding!",
+      },
+    },
+
+    14.ThanksElevenPageData: {
+      headings: {
+        hindiTitle: "धन्यवाद",
+        englishTitle: "Thank You",
+      },
+
+      message:
+        "आपकी उपस्थिति और आशीर्वाद से हमारा विवाह समारोह अविस्मरणीय बन गया। आपके प्यार और शुभकामनाओं के लिए हृदय से धन्यवाद।",
+      
+        couple: {
+        brideName: "पार्वती चौहान",
+        groomName: "शिव सिसोदिया",
+      },
+    },
+
+    15.NoteTwelvePageData: {
+      header: {
+        title: "विनम्र निवेदन",
+        subtitle: "आपके स्नेह और आशीर्वाद की प्रतीक्षा है",
+      },
+
+      note: {
+        paragraphs: [
+          "हमारे इस शुभ विवाह समारोह को हमने सादगी, प्रेम और पारिवारिक सौहार्द के साथ मनाने का निर्णय लिया है।",
+          "अतः इस अवसर पर", 
+          "ममैरा", 
+          "एवं", 
+          "बेस", 
+          "जैसी परंपराएँ पूर्णतः बंद रहेंगी।",
+          "आपका स्नेह, आशीर्वाद और उपस्थिति ही हमारे लिए सबसे अनमोल उपहार है। 🌸",
+        ],
+      },
+
+      signature: {
+        text: "सादर — परिवार की ओर से 🙏",
+      },
+    },
+
+    16.QrCodeThirteenPageData: {
+      header: {
+        title: "शादी के फोटो",
+        subtitle: "यादगार पल कैद करने का विशेष आभार",
+        description: "शादी की सभी फोटो देखें, डाउनलोड करें और शेयर करें",
+      },
+
+      gallery: {
+        galleryUrl: "/wedding-gallery",
+        qrImage:
+          "https://w7.pngwing.com/pngs/911/276/png-transparent-qr-code-barcode-scanners-code-miscellaneous-angle-text-thumbnail.png",
+        qrAlt: "QR Code - विवाह फोटो गैलरी",
+        scanTitle: "QR कोड स्कैन करें",
+        scanSubtitle: "शादी की सभी फोटो देखने और डाउनलोड करने के लिए",
+      },
+
+      share: {
+        title: "विवाह फोटो गैलरी",
+        text: "शादी की सभी यादगार फोटो देखें और डाउनलोड करें",
+        fallbackMessage:
+          "लिंक कॉपी हो गया! कृपया अपने दोस्तों के साथ शेयर करें।",
+      },
+
+      feature: {
+        title: "शादी की फोटो",
+        actions: ["देखें", "डाउनलोड करें", "अपलोड करें"],
+      },
+    },
+  },
+
+};

@@ -1,0 +1,31 @@
+import React, { createContext, useContext, useMemo } from "react";
+import { useParams } from "react-router-dom";
+import { weddingDataByUser } from "./weddingData";
+
+const AppContext = createContext(null);
+
+export const AppProvider = ({ children }) => {
+  const { userId } = useParams(); // user1, user2, user3...
+
+  const activeUserId = userId && weddingDataByUser[userId]
+    ? userId
+    : "user1"; // fallback safety
+
+  const data = useMemo(() => {
+    return weddingDataByUser[activeUserId];
+  }, [activeUserId]);
+
+  return (
+    <AppContext.Provider value={{ userId: activeUserId, data }}>
+      {children}
+    </AppContext.Provider>
+  );
+};
+
+export const useAppContext = () => {
+  const ctx = useContext(AppContext);
+  if (!ctx) {
+    throw new Error("useAppContext must be used inside AppProvider");
+  }
+  return ctx;
+};

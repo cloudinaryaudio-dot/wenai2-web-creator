@@ -1,0 +1,9 @@
+<Route path="/:userId/*" element={
+  <AppProvider>
+    <App />
+  </AppProvider>
+} />
+
+HOW ANY PAGE USES DATA (NO CONFUSION)
+const { data } = useAppContext();
+const { BrideGroomFourthPageData } = data;

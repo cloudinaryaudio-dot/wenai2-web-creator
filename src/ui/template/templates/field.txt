@@ -1,0 +1,763 @@
+TapToStartButtonData = {
+  videoUrlDesktop: "/vid-desktop.mp4",
+  videoUrlMobile: "/vid-mobile.mp4",
+
+  ganeshImage: "/ganeshji.png",
+  tapToOpenImage: "/taptoopen.png",
+};
+
+GuestNamesData = {
+  guestBackgroundImage:
+    "https://res.cloudinary.com/depixc8dq/image/upload/v1730636153/aamantran%20assets/theme1v2_gwmxrh.jpg",
+
+  guestLogoImage: "/padhrosa.jpg",
+
+  headerTitle: "आदरणीय अतिथि",
+  openCardText: "Open Card",
+
+  guestData: [
+    {
+      names: [
+        "ठा. सा. रणवीर सिंह उमठ जी",
+        "ठा. सा. लक्ष्मणलाल चौधरी जी",
+        "ठा. सा. भेरूलाल पाटीदार जी",
+        "ठा. सा. गजेंद्रसिंह चौहान जी",
+      ],
+    },
+    {
+      thikana: "ठिकाना राजगढ़",
+    },
+    {
+      sa_parivar: "सा परिवार",
+    },
+  ],
+};
+
+WelcomeCardData = {
+  welcomeTitle: "Megha Weds Krishnapal",
+
+  welcomeSubtitle:
+    "आपका स्वागत है — कृपया इस निमंत्रण को खोलें और इस खास अवसर में हमारे साथ शामिल हों।",
+
+  welcomeDescription:
+    "आपका उपस्थिति हमारे लिए महत्वपूर्ण है — निमंत्रण खोलें और समारोह का विवरण देखें।",
+
+  welcomeHelpText: "Tap the button to continue.",
+
+  openInvitationText: "Open Invitation",
+  openingText: "Opening…",
+};
+
+RoyalTemplateFirstPageData = {
+  royalBgDesktop: "/nlp1i.png",
+  royalBgMobile: "/nlpim1.png",
+
+  royalMusicSrc: "/jodha.mp3",
+
+  playLabel: "Play music",
+  pauseLabel: "Pause music",
+};
+
+RoyalTemplateSecondPageData = {
+  weddingDateISO: "2025-11-29T21:00:00",
+
+  weddingDateText: "29 नवम्बर 2025",
+  weddingTimeText: "रात 9:00 बजे",
+
+  bgDesktopSecond: "/nlp2i.png",
+  bgMobileSecond: "/nlpim2.png",
+
+  dayLabel: "दिन",
+  hourLabel: "घंटे",
+  minuteLabel: "मिनट",
+  secondLabel: "सेकंड",
+};
+
+AutoScrollBGThirdPageData = {
+  desktopImages: [
+    "https://i.pinimg.com/1200x/70/d1/25/70d12521f2f1f44c3eb932608cebb39f.jpg",
+    "https://i.pinimg.com/1200x/77/25/5e/77255eb21825680305b1d006b96976f4.jpg",
+    "https://i.pinimg.com/1200x/60/cd/40/60cd4089cbfa74dfd1a792bad9f97bd5.jpg",
+    "https://i.pinimg.com/736x/16/51/b9/1651b954678912d703c0ded8e9a1fc19.jpg",
+    "https://i.pinimg.com/1200x/1b/b7/42/1bb74288cf2a2b4e504f6efdc946ef10.jpg",
+    "https://i.pinimg.com/736x/ee/c7/24/eec7241d7b647e46a262ceec5ecd30b5.jpg",
+    "https://i.pinimg.com/1200x/48/94/83/4894839034ba2e0ab63d41028ec0ad28.jpg",
+    "https://i.pinimg.com/736x/df/84/aa/df84aafb7d8c235c6cffe4fc16e55fd8.jpg",
+    "https://i.pinimg.com/1200x/0a/9e/b5/0a9eb59ae2d0703d487c8c2307efd9fc.jpg",
+    "https://i.pinimg.com/1200x/58/b0/8a/58b08a98eaa6a6b8b8e260f3136c6905.jpg",
+  ],
+
+  mobileImages: [
+    "https://i.pinimg.com/736x/b5/19/37/b51937aa4ee336adfc0e61b7a006678c.jpg",
+    "https://i.pinimg.com/736x/33/29/c0/3329c02bb59a71072e0f0a375a424cc8.jpg",
+    "https://i.pinimg.com/736x/b8/06/7d/b8067d405daef75785f34c99aae3623b.jpg",
+    "https://i.pinimg.com/736x/6c/5b/b2/6c5bb2d4cc60cb97f699be665ed78321.jpg",
+    "https://i.pinimg.com/1200x/a7/35/30/a73530337b38bab74dac7d53beb99136.jpg",
+    "https://i.pinimg.com/736x/2c/0b/61/2c0b618269d9f97f6c3d9a57ecf8e03d.jpg",
+  ],
+
+  coupleTitle: "Megha",
+  coupleTitleHighlightLeft: "Weds",
+  coupleTitleHighlightRight: "Krishnapal",
+
+  coupleDescription:
+    "हम आपके साथ इस खास पल में खुशियाँ बाँटने के लिए आमंत्रित करते हैं। कृपया आकर अपनी शुभकामनाएँ दे।",
+};
+
+BrideGroomFourthPageData = {
+  weddingCards: [
+    {
+      role: "वधू",
+      name: "सौ.का. किरण कुंवर (मेहा)",
+      details: [
+        "सुपोत्री : ठा.सा. भारतसिंहजी सोलंकी",
+        "सुपुत्री : कुं.सा. कृष्णपालसिंह सोलंकी (सोनू)",
+        "ठि. महाराजगंजखेड़ा",
+      ],
+      image:
+        "https://i.pinimg.com/1200x/83/da/4a/83da4aab6a972a7efb1cfcdfb321a5bc.jpg",
+    },
+    {
+      role: "वर",
+      name: "ची. कृष्णपालसिंह",
+      details: [
+        "सुपोत्रा : ठा.सा. कमलसिंह राठौर",
+        "सुपुत्र : कुं.सा. विरेंद्रसिंह राठौर",
+        "ठि. कडछली, जि. उज्जैन",
+      ],
+      image:
+        "https://i.pinimg.com/1200x/5d/71/9b/5d719bff3d8ad1453c88d7bc50516136.jpg",
+    },
+  ],
+};
+
+FunctionCardsFifthPageData = {
+  weddingEvents: [
+    {
+      id: "ev-01",
+      order: 1,
+      functionName: "रोका समारोह",
+      date: "25 नवम्बर 2025",
+      muhuratTime: "शाम 6:00 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/b7/7c/c8/b77cc87aec22f790f195ebc8cb018666.jpg",
+      alt: "रोका समारोह सजावट",
+      durationMinutes: 90,
+      notes: "",
+    },
+    {
+      id: "ev-02",
+      order: 2,
+      functionName: "मेहंदी समारोह",
+      date: "27 नवम्बर 2025",
+      muhuratTime: "शाम 5:00 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/3f/44/ef/3f44efaa626e85874bfc8271843a6bd9.jpg",
+      alt: "मेहंदी डिजाइन और मेहमान",
+      durationMinutes: 180,
+      notes: "",
+    },
+    {
+      id: "ev-03",
+      order: 3,
+      functionName: "हल्दी समारोह",
+      date: "28 नवम्बर 2025",
+      muhuratTime: "सुबह 10:30 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/1200x/c2/2f/e8/c22fe86f9d4ac7f3e744631caeca43b0.jpg",
+      alt: "हल्दी समारोह रस्म",
+      durationMinutes: 120,
+      notes: "",
+    },
+    {
+      id: "ev-04",
+      order: 4,
+      functionName: "संगीत समारोह",
+      date: "28 नवम्बर 2025",
+      muhuratTime: "रात 8:00 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/f4/f9/2c/f4f92cbf9030916b700f1f599531c228.jpg",
+      alt: "संगीत समारोह स्टेज",
+      durationMinutes: 240,
+      notes: "",
+    },
+    {
+      id: "ev-05",
+      order: 5,
+      functionName: "विवाह समारोह",
+      date: "29 नवम्बर 2025",
+      muhuratTime: "रात 9:00 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/54/ba/1a/54ba1a410f01e75fbea4d8f2794dc21b.jpg",
+      alt: "विवाह और मंडप",
+      durationMinutes: 180,
+      notes: "",
+    },
+    {
+      id: "ev-06",
+      order: 6,
+      functionName: "जयमाला",
+      date: "29 नवम्बर 2025",
+      muhuratTime: "शाम 6:30 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/01/ee/4f/01ee4f3b2044682f7cf3c80bf5d8b153.jpg",
+      alt: "जयमाला रस्म",
+      durationMinutes: 30,
+      notes: "",
+    },
+    {
+      id: "ev-07",
+      order: 7,
+      functionName: "माता एवं गणेश पूजन",
+      date: "29 नवम्बर 2025",
+      muhuratTime: "शाम 5:45 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/7a/7a/20/7a7a2063d7ab564fa2c7f19f6a2da968.jpg",
+      alt: "माता एवं गणेश पूजा",
+      durationMinutes: 20,
+      notes: "आरती और प्रसाद",
+    },
+    {
+      id: "ev-08",
+      order: 8,
+      functionName: "मंडप पूजन",
+      date: "29 नवम्बर 2025",
+      muhuratTime: "शाम 7:00 बजे",
+      place: "मंडप स्थल, शर्मा विला",
+      image:
+        "https://i.pinimg.com/736x/85/ee/a7/85eea77696311633d1f21cf43485f73d.jpg",
+      alt: "मंडप पूजन",
+      durationMinutes: 30,
+      notes: "पंडित द्वारा अनुष्ठान",
+    },
+    {
+      id: "ev-09",
+      order: 9,
+      functionName: "घर विवाह",
+      date: "30 नवम्बर 2025",
+      muhuratTime: "सुबह 11:00 बजे",
+      place: "नवरात्रि घर, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/2f/80/a7/2f80a7177ce16300fd137ae08f6dbd0a.jpg",
+      alt: "घरेलू विवाह कार्यक्रम",
+      durationMinutes: 120,
+      notes: "घरेलू रस्में और स्वागत",
+    },
+    {
+      id: "ev-10",
+      order: 10,
+      functionName: "गंगाजी पूजन",
+      date: "30 नवम्बर 2025",
+      muhuratTime: "दोपहर 1:30 बजे",
+      place: "पवित्र घाट, जयपुर (या विला)",
+      image:
+        "https://i.pinimg.com/736x/55/31/2f/55312fd20c76255a6398c73824cb9bcc.jpg",
+      alt: "गंगाजी पूजा",
+      durationMinutes: 30,
+      notes: "",
+    },
+    {
+      id: "ev-11",
+      order: 11,
+      functionName: "शुभलग्न",
+      date: "30 नवम्बर 2025",
+      muhuratTime: "दोपहर 2:15 बजे",
+      place: "शर्मा विला, जयपुर",
+      image:
+        "https://i.pinimg.com/736x/74/31/82/743182978f285764afb5b4f0332f94bc.jpg",
+      alt: "शुभलग्न रस्म",
+      durationMinutes: 45,
+      notes: "",
+    },
+    {
+      id: "ev-12",
+      order: 12,
+      functionName: "Reception",
+      date: "30 नवम्बर 2025",
+      muhuratTime: "रात 8:00 बजे",
+      place: "शर्मा बॉलरूम, जयपुर",
+      image:
+        "https://i.pinimg.com/1200x/ea/8d/ad/ea8dadfad402cf06bab42c60057e1863.jpg",
+      alt: "रिसेप्शन और स्वागत समारोह",
+      durationMinutes: 240,
+      notes: "डिनर और स्वागत वक्तव्य",
+    },
+  ],
+
+  headings: {
+    manglik: "मांगलिक कार्यक्रम",
+    pratibhoj: "प्रतिभोज",
+    baraatNotice: "~✦ बारात सूचना ✦~",
+  },
+
+  pratibhojCard: {
+    functionName: "प्रतिभोज",
+    date: "30 नवम्बर 2025",
+    muhuratTime: "दोपहर 12:00 बजे से",
+    place: "शर्मा विला, जयपुर",
+    image:
+      "https://i.pinimg.com/736x/1f/c4/82/1fc4823abcdaa4863e134a83c43a078c.jpg",
+  },
+
+  baraatNotice: {
+    description:
+      "सादर सूचित किया जाता है कि बारात श्री रविन्द्र ठाकुर जी, ग्राम सुण्डलखेड़ा, तहसील महिदपुर, जिला देवास (म.प्र.) के यहाँ सादर प्रस्थान करेगी।",
+    date: "15-11-2025",
+    time: "शाम 07:30 बजे",
+  },
+
+  map: {
+    destination: "ग्राम सुण्डलखेड़ा, महिदपुर, देवास, मध्य प्रदेश",
+    mapUrl:
+      "https://www.google.com/maps/search/?api=1&query=%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%20%E0%A4%B8%E0%A5%81%E0%A4%A3%E0%A5%8D%E0%A4%A1%E0%A4%B2%E0%A4%96%E0%A5%87%E0%A4%A1%E0%A4%BC%E0%A4%BE%2C%20%E0%A4%AE%E0%A4%B9%E0%A4%BF%E0%A4%A6%E0%A4%AA%E0%A5%81%E0%A4%B0%2C%20%E0%A4%A6%E0%A5%87%E0%A4%B5%E0%A4%BE%E0%A4%B8%2C%20%E0%A4%AE%E0%A4%A7%E0%A5%8D%E0%A4%AF%20%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%A6%E0%A5%87%E0%A4%B6",
+    buttonText: "दिशा-निर्देश देखें",
+    mapIconPath:
+      "M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z",
+  },
+};
+
+ImageCardSectionSixPageData = {
+  heading: {
+    title: "स्नेहिल स्मृतियाँ",
+    subtitle: "Cherished moments from our special days",
+  },
+
+  memories: [
+    {
+      src: "https://i.pinimg.com/1200x/83/da/4a/83da4aab6a972a7efb1cfcdfb321a5bc.jpg",
+      category: "Bride",
+      caption: "Radiant Bride - Kiran Kunwar",
+    },
+    {
+      src: "https://i.pinimg.com/1200x/5d/71/9b/5d719bff3d8ad1453c88d7bc50516136.jpg",
+      category: "Groom",
+      caption: "Charming Groom - Krishna Pal Singh",
+    },
+    {
+      src: "https://i.pinimg.com/736x/fc/37/5f/fc375fe7bdbabcaa353b8fa19b775288.jpg",
+      category: "Family",
+      caption: "Together with Blessings",
+    },
+    {
+      src: "https://i.pinimg.com/736x/a8/5d/38/a85d38fb547aba3b1fde27e2d68938d5.jpg",
+      category: "Friends",
+      caption: "Joyful Friends Celebration",
+    },
+    {
+      src: "https://i.pinimg.com/736x/3c/bb/43/3cbb43a149577e938fb6dec0d84bdcc4.jpg",
+      category: "Bride",
+      caption: "The Haldi Glow",
+    },
+  ],
+
+  categories: [
+    {
+      label: "Bride",
+      icon: "👰",
+      value: "Bride",
+    },
+    {
+      label: "All",
+      icon: "💖",
+      value: "All",
+    },
+    {
+      label: "Groom",
+      icon: "🤵",
+      value: "Groom",
+    },
+    {
+      label: "Family & Friends",
+      icon: "👨‍👩‍👧",
+      value: "Family",
+    },
+  ],
+};
+
+WeddingVideoSeventhPageData = {
+  video: {
+    videoId: "GSZbScV33WA",
+    thumbnailUrl: "https://i.ytimg.com/vi/GSZbScV33WA/maxresdefault.jpg",
+    fallbackThumbnailUrl: "https://i.ytimg.com/vi/GSZbScV33WA/hqdefault.jpg",
+    youtubeUrl: "https://www.youtube.com/watch?v=GSZbScV33WA",
+  },
+
+  videoDetails: {
+    title: "नव & जसमीण | जयपुर प्री-वेडिंग",
+    englishTitle: "Nav & Jasmeen | Jaipur Pre-Wedding",
+    subtitle: "Himanshu Pagariya Productions",
+    description:
+      "Experience their romantic adventure among Jaipur's legendary wonders - from majestic Amer Fort to the timeless charm of Hawa Mahal.",
+    location: "Jaipur, Rajasthan",
+    duration: "3:00",
+    date: "September 2025",
+    photographer: "+91 9799230300",
+    photographerTel: "tel:+919799230300",
+  },
+
+  headings: {
+    watchButtonText: "Watch Now",
+    ariaWatchLabel: "Watch pre-wedding video on YouTube",
+  },
+
+  credits: {
+    locationsText: "📍 Amer Fort, Hawa Mahal, Panna Meena ka Kund",
+    themeText: "💍 Rajasthan's Royal",
+    quote: "जयपुर की शाही हवेलियों में बसी प्रेम कहानी...",
+    footer:
+      "Captured by Himanshu Pagariya Productions • International Award-Winning Team",
+  },
+};
+
+WishesEightPageData = {
+  wishes: [
+    {
+      id: 1,
+      theme: "family",
+      message:
+        "परिवार का स्नेह और आशीर्वाद आपके हर कदम पर शक्ति बने। जीवन में प्रेम, शांति और समृद्धि का प्रकाश सदा बना रहे।",
+      from: "परिवार",
+      relation: "सभी सदस्य",
+      icon: "Users",
+      color: "from-rose-400/20 to-pink-400/20",
+    },
+    {
+      id: 2,
+      theme: "bride",
+      message:
+        "नई दुल्हन के जीवन में प्रेम की कोमलता और साथ की मिठास सदा बनी रहे। हर सुबह नई खुशियाँ लेकर आए।",
+      from: "किरण",
+      relation: "वधू पक्ष",
+      icon: "Heart",
+      color: "from-pink-400/20 to-rose-400/20",
+    },
+    {
+      id: 3,
+      theme: "groom",
+      message:
+        "वर के जीवन में जिम्मेदारी और प्रेम का सुंदर संतुलन बना रहे। आपका दाम्पत्य जीवन सम्मान, विश्वास और खुशी से भरा हो।",
+      from: "कृष्ण",
+      relation: "वर पक्ष",
+      icon: "Gift",
+      color: "from-amber-400/20 to-orange-400/20",
+    },
+    {
+      id: 4,
+      theme: "friends",
+      message:
+        "मित्रों की ओर से ढेर सारा प्यार — आपकी जोड़ी हर पल में हँसी, समझ और अंतहीन यादें बनाए। खुशियाँ हमेशा आपके करीब रहें।",
+      from: "मित्र मंडली",
+      relation: "साथी",
+      icon: "Sparkles",
+      color: "from-indigo-400/20 to-purple-400/20",
+    },
+    {
+      id: 5,
+      theme: "sister",
+      message:
+        "बहन की दुआ — आपका जीवन प्रेम, सम्मान और साथ की खूबसूरती से सजा रहे। कठिनाई में सहारा और खुशी में साथी बने रहें।",
+      from: "मीनल",
+      relation: "बहन",
+      icon: "Heart",
+      color: "from-emerald-400/20 to-teal-400/20",
+    },
+    {
+      id: 6,
+      theme: "brother",
+      message:
+        "भाई की शुभकामनाएँ — आपका घर हँसी, सुख और अपार प्रेम से भरा रहे। हर कदम पर ईश्वर आपका मार्ग प्रशस्त करें।",
+      from: "रवि",
+      relation: "भाई",
+      icon: "ChevronRight",
+      color: "from-blue-400/20 to-cyan-400/20",
+    },
+    {
+      id: 7,
+      theme: "aunt",
+      message:
+        "चाची की ओर से ढेर सारा प्यार — आपका दाम्पत्य जीवन मधुरता, अपनापन और स्नेह से महकता रहे।",
+      from: "सोनिया",
+      relation: "चाची",
+      icon: "Heart",
+      color: "from-rose-300/20 to-pink-300/20",
+    },
+    {
+      id: 8,
+      theme: "cousin",
+      message:
+        "चचेरे भाई की दुआ — आपका साथ हर मौसम में मजबूत रहे। जीवन के हर मोड़ पर प्रेम, हँसी और सफलता आपके साथ रहे।",
+      from: "रोहित",
+      relation: "चचेरा भाई",
+      icon: "Sparkles",
+      color: "from-violet-400/20 to-fuchsia-400/20",
+    },
+    {
+      id: 9,
+      theme: "aunt",
+      message:
+        "मौसी का आशीर्वाद — आपका दांपत्य जीवन विश्वास, समझ और अनंत खुशियों से खिल उठे।",
+      from: "अनीता",
+      relation: "मौसी",
+      icon: "Gift",
+      color: "from-amber-300/20 to-yellow-400/20",
+    },
+    {
+      id: 10,
+      theme: "uncle",
+      message:
+        "मामा की ओर से शुभकामनाएँ — आपका नया जीवन संस्कार, सम्मान और स्नेह के सुंदर बंधन से सदा जुड़ा रहे।",
+      from: "विशाल",
+      relation: "मामा",
+      icon: "Users",
+      color: "from-green-400/20 to-emerald-400/20",
+    },
+    {
+      id: 11,
+      theme: "grandmother",
+      message:
+        "दादी का आशीर्वाद — ईश्वर आपके जीवन में सदा सौभाग्य, संयम, स्वास्थ्य और अपार आनंद बरसाते रहें।",
+      from: "राधा",
+      relation: "दादी",
+      icon: "Heart",
+      color: "from-purple-400/20 to-violet-400/20",
+    },
+    {
+      id: 12,
+      theme: "friend",
+      message:
+        "मित्र की ओर से ढेर सारी दुआएँ — आपकी जोड़ी हर दिन और खूबसूरत बने, और आपका घर हमेशा मुस्कुराहटों से महके।",
+      from: "अजय",
+      relation: "कुशाल मित्र",
+      icon: "Sparkles",
+      color: "from-sky-400/20 to-blue-400/20",
+    },
+  ],
+
+
+  headings: {
+    title: "💍 शुभकामनाएं 💍",
+    subtitle: "प्रियजनों के हृदयस्पर्शी आशीर्वाद",
+  },
+
+  progress: {
+    labelPrefix: "संदेश",
+    themeLabel: "आशीर्वाद",
+  },
+};
+
+VenueNinePageData = {
+  venue: {
+    name: "राजमहल बैंक्वेट हॉल, जयपुर",
+    address: "सी-स्कीम, जयपुर, राजस्थान - 302001",
+    city: "Jaipur",
+    state: "Rajasthan",
+    imageUrl:
+      "https://i.pinimg.com/1200x/d0/95/17/d0951711f28bd3e8e38a0bd842b241a7.jpg",
+  },
+
+  event: {
+    date: "29 नवंबर 2025",
+    time: "शाम 7:00 बजे",
+    title: "शादी का स्थान",
+  },
+
+  map: {
+    latitude: 26.9124,
+    longitude: 75.7873,
+    googleMapUrl: "https://www.google.com/maps?q=26.9124,75.7873",
+  },
+
+  contact: {
+    phone: "+91 98765 43210",
+    telLink: "tel:+919876543210",
+  },
+
+  buttons: {
+    directionLabel: "दिशा प्राप्त करें",
+    callLabel: "Call",
+  },
+};
+
+NamesTenthPageData = {
+  preshakData: {
+    familyName: "🌸 सोलंकी परिवार 🌸",
+    welcomeMessage: "आपका हार्दिक अभिनंदन एवं स्वागत करता है",
+    address: {
+      location: "ठि. महाराजगंजखेडा",
+      tehsil: "त. सांवेर",
+      district: "जिला-इन्दौर",
+      mapUrl:
+        "https://www.google.com/maps/search/?api=1&query=XVG9+33W, Maharajganj, Madhya Pradesh 453551",
+    },
+    familyMembers: [
+      {
+        name: "कुं. नरेन्द्रसिंह सोलंकी",
+        phones: ["9926887616"],
+        image:
+          "https://i.pinimg.com/736x/09/51/e6/0951e66260f16d3083fd4e12c1348082.jpg",
+      },
+      {
+        name: "श्रीमती सुनीता सोलंकी",
+        phones: ["7688288070"],
+        image:
+          "https://i.pinimg.com/736x/5e/67/e1/5e67e1d3f70877a5d45764e10145ee23.jpg",
+      },
+      {
+        name: "श्री राजेश सोलंकी",
+        phones: ["9876588210"],
+        image:
+          "https://i.pinimg.com/1200x/9f/93/9c/9f939c171b6bda5259e8e0e8bf871fe6.jpg",
+      },
+    ],
+  },
+
+  weddingGroups: [
+    {
+      title: "दर्शन अभिलाषी",
+      icon: "Eye",
+      names: [
+        "श्री विजय सिंह",
+        "श्रीमती मीना देवी",
+        "श्री प्रकाश गुप्ता",
+        "श्रीमती आशा गुप्ता",
+        "श्री महेश यादव",
+      ],
+    },
+    {
+      title: "स्वागतानुसार",
+      icon: "HandHeart",
+      names: [
+        "श्री रवि कुमार",
+        "श्री संजय वर्मा",
+        "श्री अजय पटेल",
+        "श्रीमती प्रिया शर्मा",
+      ],
+    },
+    {
+      title: "विनीत",
+      icon: "UserCheck",
+      names: [
+        "श्री मोहन लाल",
+        "श्रीमती गीता देवी",
+        "श्री सुरेश कुमार",
+        "श्रीमती कमला देवी",
+        "श्री दिनेश शर्मा",
+      ],
+    },
+    {
+      title: "ननिहाल पक्ष",
+      icon: "Home",
+      names: [
+        "श्री रामप्रसाद वर्मा",
+        "श्रीमती सरला देवी",
+        "श्री कृष्ण मोहन",
+        "श्रीमती राधा देवी",
+      ],
+      childNote:
+        "सपनों सा सजेगा ये दिन सुहाना 💍 प्यार भरे दिल से है आपको बुलाना 💖 हँसी, खुशी और दुआएँ साथ लाना, शादी में ज़रूर पधार जाना! 🎉।",
+    },
+    {
+      title: "प्रातिष्ठान",
+      icon: "Building2",
+      names: [
+        "सोलंकी फार्म",
+        "गौड़ मिनरल वॉटर प्लांट",
+        "सेन फूड ग्रेन स्टोर",
+        "राठौड़ कंस्ट्रक्शन",
+        "चौहान ऑर्गेनिक फार्मिंग",
+      ],
+    },
+  ],
+
+  share: {
+    title: "Wedding Invitation",
+    text: "You are cordially invited to our wedding!",
+  },
+};
+
+ThanksElevenPageData = {
+  headings: {
+    hindiTitle: "धन्यवाद",
+    englishTitle: "Thank You",
+  },
+
+  message:
+    "आपकी उपस्थिति और आशीर्वाद से हमारा विवाह समारोह अविस्मरणीय बन गया। आपके प्यार और शुभकामनाओं के लिए हृदय से धन्यवाद।",
+
+  couple: {
+    brideName: "किरण कुंवर",
+    groomName: "कृष्ण पाल सिंह",
+  },
+
+  icons: {
+    topIcon: "Sparkles",
+    dividerIcon: "Heart",
+    signatureIcon: "Heart",
+  },
+
+  decorativeDots: {
+    colors: ["amber", "rose", "orange"],
+  },
+};
+
+NoteTwelvePageData = {
+  header: {
+    title: "विनम्र निवेदन",
+    subtitle: "आपके स्नेह और आशीर्वाद की प्रतीक्षा है",
+    icon: "Sparkles",
+  },
+
+  note: {
+    paragraphs: [
+      "हमारे इस शुभ विवाह समारोह को हमने सादगी, प्रेम और पारिवारिक सौहार्द के साथ मनाने का निर्णय लिया है।",
+      "अतः इस अवसर पर ममैरा एवं बेस जैसी परंपराएँ पूर्णतः बंद रहेंगी।",
+      "आपका स्नेह, आशीर्वाद और उपस्थिति ही हमारे लिए सबसे अनमोल उपहार है। 🌸",
+    ],
+  },
+
+  signature: {
+    text: "सादर — परिवार की ओर से 🙏",
+  },
+};
+
+QrCodeThirteenPageData = {
+  header: {
+    title: "शादी के फोटो",
+    subtitle: "यादगार पल कैद करने का विशेष आभार",
+    description:
+      "शादी की सभी फोटो देखें, डाउनलोड करें और शेयर करें",
+    icon: "Camera",
+  },
+
+  gallery: {
+    galleryUrl: "/wedding-gallery",
+    qrImage:
+      "https://w7.pngwing.com/pngs/911/276/png-transparent-qr-code-barcode-scanners-code-miscellaneous-angle-text-thumbnail.png",
+    qrAlt: "QR Code - विवाह फोटो गैलरी",
+    scanTitle: "QR कोड स्कैन करें",
+    scanSubtitle:
+      "शादी की सभी फोटो देखने और डाउनलोड करने के लिए",
+  },
+
+  share: {
+    title: "विवाह फोटो गैलरी",
+    text: "शादी की सभी यादगार फोटो देखें और डाउनलोड करें",
+    fallbackMessage:
+      "लिंक कॉपी हो गया! कृपया अपने दोस्तों के साथ शेयर करें।",
+  },
+
+  feature: {
+    title: "शादी की फोटो",
+    actions: ["देखें", "डाउनलोड करें", "अपलोड करें"],
+  },
+};
+
+
+

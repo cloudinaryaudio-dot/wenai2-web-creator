@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindi Voice Name Recorder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        .pulse { animation: pulse 1s infinite; }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen py-8">
+    <div class="max-w-md mx-auto p-6 bg-white rounded-xl shadow-xl">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">हिंदी वॉइस रिकॉर्डर</h2>
+        
+        <div class="space-y-4">
+            <!-- Input Field -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">
+                    नाम (हिंदी में बोलें)
+                </label>
+                <input
+                    type="text"
+                    id="nameInput"
+                    class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-lg"
+                    placeholder="यहाँ हिंदी नाम दिखेगा..."
+                    readonly
+                />
+            </div>
+
+            <!-- Mic Button -->
+            <button
+                id="micBtn"
+                class="w-full p-4 rounded-lg font-medium text-white flex items-center justify-center space-x-2 transition-all duration-200 bg-blue-500 hover:bg-blue-600 shadow-lg"
+            >
+                <svg id="micIcon" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4z" />
+                    <path d="M3.293 4.707a1 1 0 011.414 0L9 8.414l4.293-4.707a1 1 0 111.414 1.414L10.414 10l4.293 4.293a1 1 0 01-1.414 1.414L9 11.586l-4.293 4.293a1 1 0 01-1.414-1.414L7.586 10 3.293 5.707a1 1 0 010-1.414z" />
+                </svg>
+                <span id="micText">🎤 रिकॉर्डिंग शुरू करें</span>
+            </button>
+
+            <!-- Add Button -->
+            <button
+                id="addBtn"
+                class="w-full p-4 bg-green-500 hover:bg-green-600 disabled:bg-gray-400 disabled:cursor-not-allowed text-white font-medium rounded-lg transition-all duration-200 shadow-lg"
+                disabled
+            >
+                ➕ नाम लिस्ट में जोड़ें
+            </button>
+        </div>
+
+        <!-- Names List -->
+        <div id="namesList" class="mt-8 hidden">
+            <h3 class="text-lg font-semibold text-gray-800 mb-4">रिकॉर्डेड नाम:</h3>
+            <ul id="namesUl" class="space-y-2 max-h-40 overflow-y-auto"></ul>
+        </div>
+    </div>
+
+    <script>
+        class VoiceNameRecorder {
+            constructor() {
+                this.input = document.getElementById('nameInput');
+                this.micBtn = document.getElementById('micBtn');
+                this.micIcon = document.getElementById('micIcon');
+                this.micText = document.getElementById('micText');
+                this.addBtn = document.getElementById('addBtn');
+                this.namesListDiv = document.getElementById('namesList');
+                this.namesUl = document.getElementById('namesUl');
+                
+                this.names = [];
+                this.recognition = null;
+                this.isListening = false;
+
+                this.init();
+            }
+
+            init() {
+                this.micBtn.addEventListener('click', () => this.startListening());
+                this.addBtn.addEventListener('click', () => this.addName());
+                
+                // Check browser support
+                if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+                    this.micBtn.disabled = true;
+                    this.micBtn.innerHTML = '🎤 ब्राउज़र सपोर्ट नहीं';
+                    this.micBtn.classList.add('bg-red-500', 'cursor-not-allowed');
+                }
+            }
+
+            startListening() {
+                const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                
+                if (!SpeechRecognition) return;
+
+                this.recognition = new SpeechRecognition();
+                const recognition = this.recognition;
+
+                recognition.lang = 'hi-IN';
+                recognition.continuous = false;
+                recognition.interimResults = false;
+
+                recognition.onstart = () => {
+                    this.isListening = true;
+                    this.micBtn.classList.remove('bg-blue-500', 'hover:bg-blue-600');
+                    this.micBtn.classList.add('bg-red-500', 'hover:bg-red-600', 'pulse');
+                    this.micText.textContent = 'सुन रहा हूँ...';
+                    this.input.readOnly = true;
+                };
+
+                recognition.onresult = (event) => {
+                    const transcript = event.results[0][0].transcript;
+                    this.input.value = transcript;
+                    this.addBtn.disabled = !transcript.trim();
+                };
+
+                recognition.onend = () => {
+                    this.isListening = false;
+                    this.micBtn.classList.remove('bg-red-500', 'hover:bg-red-600', 'pulse');
+                    this.micBtn.classList.add('bg-blue-500', 'hover:bg-blue-600');
+                    this.micText.textContent = '🎤 रिकॉर्डिंग शुरू करें';
+                    this.input.readOnly = false;
+                };
+
+                recognition.onerror = (event) => {
+                    console.error('Speech recognition error:', event.error);
+                    this.stopListening();
+                    alert('रिकॉर्डिंग में त्रुटि: ' + event.error);
+                };
+
+                recognition.start();
+            }
+
+            stopListening() {
+                if (this.recognition) {
+                    this.recognition.stop();
+                }
+            }
+
+            addName() {
+                const name = this.input.value.trim();
+                if (name) {
+                    this.names.push(name);
+                    this.renderNamesList();
+                    this.input.value = '';
+                    this.addBtn.disabled = true;
+                }
+            }
+
+            renderNamesList() {
+                if (this.names.length === 0) {
+                    this.namesListDiv.classList.add('hidden');
+                    return;
+                }
+
+                this.namesListDiv.classList.remove('hidden');
+                this.namesUl.innerHTML = '';
+
+                this.names.forEach((name, index) => {
+                    const li = document.createElement('li');
+                    li.className = 'flex items-center p-3 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border-l-4 border-blue-500 shadow-sm';
+                    li.innerHTML = `
+                        <span class="font-semibold text-gray-900 mr-3 min-w-[20px]">${index + 1}.</span>
+                        <span class="text-lg font-medium text-gray-900 flex-1">${name}</span>
+                        <button onclick="recorder.removeName(${index})" class="text-red-500 hover:text-red-700 text-sm font-medium">✕</button>
+                    `;
+                    this.namesUl.appendChild(li);
+                });
+            }
+
+            removeName(index) {
+                this.names.splice(index, 1);
+                this.renderNamesList();
+            }
+        }
+
+        // Initialize when page loads
+        let recorder;
+        window.addEventListener('load', () => {
+            recorder = new VoiceNameRecorder();
+        });
+
+        // Expose globally for remove button
+        window.recorder = recorder;
+    </script>
+</body>
+</html>

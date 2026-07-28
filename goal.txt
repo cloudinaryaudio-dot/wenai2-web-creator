@@ -1,0 +1,93 @@
+data finalise for user 1  --- done
+three template royal, engagement, one more --- done
+sample input for user data --- done
+google drive set up with sample photo --- done
+user dashboard --- done
+add sign up, login and connect with free db 
+logo and domain name fix
+deploy to netlify and test it 
+
+we can do it, but costly for as of now on HOLD ---> create a mock login and signup using zustand as db and also set user and admin dashboard
+we will use Supabase ---> deside a free backend as a service for us for our usecases and implemnt it
+---> logo and domain name fix --> github se lo ya phir namecheap
+---> after finalising all the work deploy it and test
+
+Phase - 1 
+
+-- FINAL CHECK any update - i dont think so
+-- check url with 2 different user data
+-- final check for video and images - will deploy and use link only 
+-- final db structure 
+-- open cloudnary and create free account 
+open Supabase do set up 
+
+Phase - 2 
+
+logo and domain name 
+
+Phase  - 3 
+
+deploy 
+
+Phase - 4 
+
+Update domain name git-hub
+
+accouts 
+
+Cloudinary 1 -> Cloudinary.audio1 --- G-cloudinaryaudio@gmail.com,Cloud$AK47#312  --- C-dvmj16pxk
+Cloudinary 2 -> cloudinaryImage --- G-cloudinaryimage8@gmail.com,Cloud$AK47#312
+
+logo, domain, supabase, github, deploy to vercel, test once --> launch 
+----    ----    
+
+update engage and biodata as per url ---- done
+test once three of them --- done
+add checks at each component level if something not given by db then dont render --- done
+ make pricing secttion and price dynamic with db  --- done
+
+done ---- tue : add global contact details 
+tue : then connect with supabase and test 
+tue : work on contact us page after supabase setup
+wed : deploy to vercel and test 
+wed : complete the guest list component also, add total guest, sent, pending basis on tick box 
+
+**************** make pricing secttion and price dynamic with db 
+**************** add bolean for each component in wedding invitatin json it make easy if any data not want to load 
+**************** add fallback for each component if data not come form db 
+
+------------------->>>> mic based input 
+
+1. proper ui to collect and show data 
+2. google api registration / initailly use normal ones
+3. backend integeration to store data 
+4. login , sign up 
+5. control on user accounts via admin panel 
+6. create a proper schema or system design of the app -- on peper then digitally 
+
+------------------ >>>>>>> 
+
+
+
+Frontend: React + Vite + Tailwind → Vercel (static hosting) [web:10]
+Database: Supabase (text data only, 500MB free) [web:1]
+Images: Cloudinary (25GB bandwidth, auto-WebP) [web:43]
+Routing: /invitation/[id] (100 unique links)
+
+
+Cyberia@DG541#V
+
+**शिव एवं पार्वती **
+Shiv & Parvati
+शिव सिसोदिया एवं पार्वती चौहान
+21 फ़रवरी 2026
+
+सुपोत्री : ठा.सा. राजेंद्रसिंहजी चौहान
+सुपुत्री : कुं.सा. दीपिकासिंह चौहान (दीपा)
+ठि. खजूरीखेड़ा, जि. धार
+
+सुपोत्रा : ठा.सा. भैरोंसिंह सिसोदिया
+सुपुत्र : कुं.सा. अजयसिंह सिसोदिया
+ठि. तराना, जि. उज्जैन
+
+

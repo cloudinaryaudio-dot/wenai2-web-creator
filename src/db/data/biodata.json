@@ -1,0 +1,207 @@
+
+{
+  "personal": {
+    "name_hindi": "कुंवर राहुलसिंहजी राठौड़",
+    "name_english": "Kunwar Rahul Singh Rathod",
+    "profile_image": "https://i.pinimg.com/736x/4c/06/38/4c0638cdd0e52df670bee5e906ae5420.jpg",
+    "gender": "वर (भावी दूल्हा)",
+    "birth_date": "15 मार्च 1997",
+    "birth_date_iso": "1997-03-15",
+    "birth_time": "प्रातः 7:30 बजे",
+    "birth_time_24hr": "07:30",
+    "birth_place": "इंदौर, मध्य प्रदेश",
+    "birth_place_coords": {
+      "lat": 22.7196,
+      "lng": 75.8577
+    },
+    "age": "28 वर्ष",
+    "height": "5' 8\"",
+    "height_cm": 173,
+    "height_ft_in": "5 feet 8 inches",
+    "blood_group": "B+",
+    "marital_status": "अविवाहित",
+    "marital_status_en": "Unmarried",
+    "complexion": "गोरा",
+    "complexion_en": "Fair",
+    "physical_build": "Medium",
+    "weight": "70 kg (approx)",
+    "diet": "शाकाहारी",
+    "smoking": "नहीं",
+    "alcohol": "नहीं"
+  },
+  "education": {
+    "qualification": "B.Tech (कंप्यूटर साइंस)",
+    "qualification_en": "B.Tech (Computer Science)",
+    "university": "RGPV, भोपाल",
+    "university_full": "राजीव गांधी प्रौद्योगिकी विश्वविद्यालय",
+    "year_of_completion": 2021,
+    "percentage": "72%",
+    "degree_type": "Bachelor's",
+    "field_of_study": "Computer Science & Engineering"
+  },
+  "profession": {
+    "job_title": "सॉफ्टवेयर इंजीनियर",
+    "job_title_en": "Software Engineer",
+    "company": "ABC Technologies Pvt. Ltd.",
+    "company_type": "Private Limited",
+    "location": "बेंगलुरु, कर्नाटक",
+    "location_coords": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "department": "IT/Software Development",
+    "experience_years": 4,
+    "annual_income": "₹8,00,000 (लगभग)",
+    "annual_income_numeric": 800000,
+    "employment_type": "Permanent"
+  },
+  "family_paternal": {
+    "father": {
+      "name": "ठा.सा. महेशसिंहजी राठौड़",
+      "title": "Thakur Saheb",
+      "age": "52",
+      "profession": "व्यवसाय / कृषि",
+      "profession_en": "Business / Agriculture",
+      "business_type": "Landlord & Trader"
+    },
+    "grandfather": {
+      "name": "ठा.सा. भगवाणसिंहजी राठौड़",
+      "status": "स्व. (Deceased)",
+      "age_at_death": "78"
+    },
+    "ancestral_place": {
+      "name": "ठि. कुशालनगर, जिला उज्जैन (म.प्र.)",
+      "district": "उज्जैन",
+      "state": "मध्य प्रदेश",
+      "pincode": "456221"
+    },
+    "mother": {
+      "name": "श्रीमती सुनीताकंवर राठौड़",
+      "title": "Smt.",
+      "age": "48",
+      "occupation": "गृहिणी",
+      "occupation_en": "Homemaker"
+    },
+    "siblings": [
+      {
+        "relation": "छोटा भाई",
+        "relation_en": "Younger Brother",
+        "name": "अजयसिंह राठौड़",
+        "age": "24",
+        "marital_status": "अविवाहित",
+        "occupation": "B.Tech Student"
+      }
+    ],
+    "family_size": 5,
+    "family_type": "Joint Family"
+  },
+  "family_maternal": {
+    "grandfather": {
+      "name": "ठा.सा. मोहनसिंहजी सिसोदिया",
+      "title": "Thakur Saheb",
+      "age": "75",
+      "occupation": "Retired"
+    },
+    "ancestral_place": {
+      "name": "ठि. देवगढ़, जिला राजसमंद (राजस्थान)",
+      "district": "राजसमंद",
+      "state": "राजस्थान",
+      "pincode": "313301"
+    },
+    "uncles": [
+      {
+        "name": "ठा.सा. विक्रमसिंहजी सिसोदिया",
+        "title": "Thakur Saheb",
+        "profession": "PWD, सरकारी सेवा",
+        "profession_en": "Public Works Department, Government Service",
+        "location": "उदयपुर, राजस्थान",
+        "family_size": 4
+      },
+      {
+        "name": "ठा.सा. सुरेंद्रसिंहजी सिसोदिया",
+        "title": "Thakur Saheb",
+        "profession": "व्यवसायी",
+        "profession_en": "Businessman",
+        "business_type": "Retail & Trading",
+        "location": "देवगढ़, राजस्थान"
+      }
+    ]
+  },
+  "religion": {
+    "religion": "हिंदू",
+    "religion_en": "Hindu",
+    "caste": "राजपूत",
+    "caste_en": "Rajput",
+    "subcaste": "राठौड़ राजपूत",
+    "subcaste_en": "Rathod",
+    "gotra": "राठौड़",
+    "gotra_en": "Rathod",
+    "maternal_gotra": "सिसोदिया",
+    "maternal_gotra_en": "Sisodiya",
+    "sect": "क्षत्रिय",
+    "family_deity": "श्री हनुमान जी",
+    "family_deity_en": "Lord Hanuman"
+  },
+  "contact": {
+    "primary_contact": {
+      "name": "ठा.सा. महेशसिंहजी राठौड़",
+      "relation": "पिता",
+      "relation_en": "Father"
+    },
+    "phone": "+91 98765 43210",
+    "whatsapp": "+91 98765 43210",
+    "email": "rahul.rathod@example.com",
+    "current_residence": {
+      "address": "बेंगलुरु, कर्नाटक",
+      "city": "बेंगलुरु",
+      "state": "कर्नाटक",
+      "pincode": "560001"
+    },
+    "ancestral_residence": {
+      "address": "ठि. कुशालनगर, जिला उज्जैन, मध्य प्रदेश",
+      "village": "कुशालनगर",
+      "district": "उज्जैन",
+      "state": "मध्य प्रदेश",
+      "pincode": "456221"
+    },
+    "alternative_contact": {
+      "name": "श्रीमती सुनीताकंवर राठौड़",
+      "relation": "माता",
+      "phone": "+91 98765 43211"
+    }
+  },
+  "expectations": {
+    "bride": {
+      "age_preference": "24-28 वर्ष",
+      "height_preference": "5'2\" - 5'6\"",
+      "education_preference": "Graduate/Post Graduate",
+      "profession_preference": "Service/Business/Homemaker",
+      "physical_attributes": "गोरा/मध्यम रंग, स्लिम/मीडियम",
+      "temperament": "संस्कारी, सुशिक्षित, पारिवारिक मूल्यों में विश्वास रखने वाली, विनम्र और प्रेमपूर्ण स्वभाव वाली",
+      "full_description": "संस्कारी, सुशिक्षित, पारिवारिक मूल्यों में विश्वास रखने वाली, विनम्र और प्रेमपूर्ण स्वभाव वाली कन्या अपेक्षित है।"
+    },
+    "family": {
+      "preferred_caste": "राजपूत या समकक्ष क्षत्रिय जाति",
+      "family_type": "संयुक्त या विभक्त, सौहार्दपूर्ण",
+      "family_size": "मध्यम आकार का",
+      "values": "सभ्य, सम्मानित, संस्कारी, पारिवारिक एकता",
+      "full_description": "राजपूत या समकक्ष जाति के सभ्य, सम्मानित और संस्कारी परिवार वांछनीय हैं। परिवार में सौहार्द, विश्वास और स्नेह का वातावरण आवश्यक है।"
+    },
+    "location_preferences": {
+      "preferred_states": ["मध्य प्रदेश", "राजस्थान", "महाराष्ट्र", "गुजरात"],
+      "preferred_cities": ["इंदौर", "उज्जैन", "जयपुर", "उदयपुर", "भोपाल"]
+    }
+  },
+  "autoScrollImg": [
+    "https://i.pinimg.com/736x/67/ce/4a/67ce4acf9b9b1f00926ea55cdef841af.jpg",
+    "https://i.pinimg.com/736x/aa/c0/c3/aac0c3440fe54145b093ab4bfdd6cf16.jpg",
+    "https://i.pinimg.com/736x/3e/5f/b9/3e5fb937b82aa0d92e7634512b0972ea.jpg",
+    "https://i.pinimg.com/736x/25/00/14/250014368dc650935469c5057de05e48.jpg",
+    "https://i.pinimg.com/736x/c6/31/f5/c631f5f20f65236fe26ae1a6dab9e126.jpg",
+    "https://i.pinimg.com/736x/a8/1b/58/a81b58ff9db45932847faf49f0073a2a.jpg"
+  ],
+  "backgroundImage": [
+    "https://i.pinimg.com/1200x/55/33/8e/55338e3ed0f63de870b91a8b47fb70a3.jpg",
+    "https://i.pinimg.com/736x/68/ae/89/68ae899fd07a302d66164ce8ca9f42c6.jpg"
+  ]
+}
