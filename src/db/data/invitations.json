@@ -1,0 +1,87 @@
+{
+  "default": {
+    "id": "default",
+    "eventType": "wedding",
+    "theme": {
+      "primary": "#8f201a",
+      "accent": "#d4a24c",
+      "bg": "from-[#4a0f0e] via-[#8f201a] to-[#4a0f0e]",
+      "text": "#fdf6ec",
+      "font": "serif"
+    },
+    "config": {
+      "sections": [
+        "hero",
+        "couple",
+        "eventDetails",
+        "countdown",
+        "family",
+        "schedule",
+        "venue",
+        "gallery",
+        "contact",
+        "footer"
+      ]
+    },
+    "hero": {
+      "title": "Aarav & Isha",
+      "subtitle": "Together with their families invite you to celebrate their wedding",
+      "date": "2026-12-14T18:00:00+05:30",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=1600",
+      "tagline": "Save the Date"
+    },
+    "couple": {
+      "bride": {
+        "name": "Isha Verma",
+        "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600",
+        "about": "Daughter of Mr. & Mrs. Verma"
+      },
+      "groom": {
+        "name": "Aarav Sharma",
+        "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600",
+        "about": "Son of Mr. & Mrs. Sharma"
+      }
+    },
+    "eventDetails": {
+      "title": "Our Wedding",
+      "description": "Two families, one celebration. Join us as we begin our forever."
+    },
+    "countdown": {
+      "targetDate": "2026-12-14T18:00:00+05:30",
+      "label": "Countdown to the Big Day"
+    },
+    "family": [
+      { "name": "Rajesh Sharma", "relation": "Groom's Father" },
+      { "name": "Sunita Sharma", "relation": "Groom's Mother" },
+      { "name": "Anil Verma", "relation": "Bride's Father" },
+      { "name": "Meera Verma", "relation": "Bride's Mother" }
+    ],
+    "schedule": [
+      { "title": "Haldi", "date": "2026-12-12T10:00:00+05:30", "venue": "Bride's Residence" },
+      { "title": "Sangeet", "date": "2026-12-13T19:00:00+05:30", "venue": "Grand Ballroom" },
+      { "title": "Wedding Ceremony", "date": "2026-12-14T18:00:00+05:30", "venue": "Royal Palace Gardens" },
+      { "title": "Reception", "date": "2026-12-15T20:00:00+05:30", "venue": "Grand Ballroom" }
+    ],
+    "venue": {
+      "name": "Royal Palace Gardens",
+      "address": "12 Heritage Road, Jaipur, Rajasthan",
+      "mapEmbed": "https://www.google.com/maps?q=Jaipur&output=embed"
+    },
+    "gallery": [
+      "https://images.unsplash.com/photo-1519741497674-611481863552?w=800",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800",
+      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=800",
+      "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"
+    ],
+    "contact": [
+      { "name": "Rohan (Groom's Brother)", "phone": "+91 90000 11111" },
+      { "name": "Priya (Bride's Sister)", "phone": "+91 90000 22222" }
+    ],
+    "footer": {
+      "message": "With love, Aarav & Isha",
+      "hashtag": "#AaravWedsIsha"
+    }
+  }
+}
