@@ -46,8 +46,14 @@ export function normalize(raw) {
   return {
     id: raw.id || "default",
     eventType: raw.eventType || "wedding",
+    // Presentation reference (theme engine); legacy inline theme still honored.
+    themeId: raw.themeId || raw.theme?.id || null,
     theme: raw.theme || {},
+    // Behaviour layer (rule engine).
+    rules: raw.rules || {},
+    publishState: raw.publishState || "published",
     config: raw.config || { sections: [] },
+
     hero: raw.hero || null,
     couple: raw.couple || null,
     eventDetails: raw.eventDetails || null,
