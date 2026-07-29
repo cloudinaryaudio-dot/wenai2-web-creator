@@ -1,53 +1,60 @@
 import React from "react";
-import {
-  HeroSection,
-  CoupleSection,
-  EventDetailsSection,
-  CountdownSection,
-  FamilySection,
-  ScheduleSection,
-  VenueSection,
-  GallerySection,
-  ContactSection,
-  FooterSection,
-} from "./sections";
+import { ThemeProvider, useTheme, resolveTheme } from "../../lib/theme";
+import { evaluateRules, canRenderSection, PUBLISH_STATE } from "../../lib/rules";
+import { getSection, listSectionIds } from "./sectionRegistry";
 
 /**
- * Configuration-driven renderer.
- * The registry maps a section key to (data, config, theme) -> JSX.
- * Add a new section by extending the registry — no page changes required.
+ * Rendering Engine
+ * ----------------
+ * Knows nothing about themes or section implementations.
+ * Flow: section id -> registry -> component -> render, gated by the rule engine.
  */
-const REGISTRY = {
-  hero: (inv, theme) => <HeroSection data={inv.hero} theme={theme} />,
-  couple: (inv, theme) => <CoupleSection data={inv.couple} theme={theme} />,
-  eventDetails: (inv, theme) => (
-    <EventDetailsSection data={inv.eventDetails} theme={theme} />
-  ),
-  countdown: (inv, theme) => (
-    <CountdownSection data={inv.countdown} theme={theme} />
-  ),
-  family: (inv, theme) => <FamilySection data={inv.family} theme={theme} />,
-  schedule: (inv, theme) => <ScheduleSection data={inv.schedule} theme={theme} />,
-  venue: (inv, theme) => <VenueSection data={inv.venue} theme={theme} />,
-  gallery: (inv, theme) => <GallerySection data={inv.gallery} theme={theme} />,
-  contact: (inv, theme) => <ContactSection data={inv.contact} theme={theme} />,
-  footer: (inv, theme) => <FooterSection data={inv.footer} theme={theme} />,
-};
-
-export default function InvitationRenderer({ invitation }) {
-  if (!invitation) return null;
-  const theme = invitation.theme || {};
-  const sections = invitation.config?.sections?.length
-    ? invitation.config.sections
-    : Object.keys(REGISTRY);
+function RendererShell({ invitation, sections, rules }) {
+  const { theme, cssVars } = useTheme();
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${theme.bg || "from-slate-900 via-slate-950 to-black"} text-white`}>
+    <div
+      className={`min-h-screen bg-gradient-to-br ${theme.colors.gradient}`}
+      style={{
+        ...cssVars,
+        color: "var(--inv-color-text)",
+        fontFamily: "var(--inv-font-body)",
+        backgroundImage: theme.assets?.backgroundImage
+          ? `url(${theme.assets.backgroundImage})`
+          : undefined,
+      }}
+    >
       {sections.map((key) => {
-        const render = REGISTRY[key];
-        if (!render) return null;
-        return <React.Fragment key={key}>{render(invitation, theme)}</React.Fragment>;
+        const entry = getSection(key);
+        if (!entry) return null;
+        if (!canRenderSection(key, rules)) return null;
+        const Component = entry.component;
+        const data = entry.select(invitation);
+        return <Component key={key} data={data} invitation={invitation} rules={rules} />;
       })}
     </div>
+  );
+}
+
+export default function InvitationRenderer({ invitation, themeId }) {
+  if (!invitation) return null;
+
+  const rules = evaluateRules(invitation);
+  if (rules.publishState === PUBLISH_STATE.ARCHIVED) return null;
+
+  const theme = resolveTheme(themeId ? { ...invitation, themeId } : invitation);
+
+  // Order: theme layout override -> invitation config -> registry order.
+  const sections =
+    theme.layout?.sectionOrder?.length
+      ? theme.layout.sectionOrder
+      : invitation.config?.sections?.length
+      ? invitation.config.sections
+      : listSectionIds();
+
+  return (
+    <ThemeProvider theme={theme}>
+      <RendererShell invitation={invitation} sections={sections} rules={rules} />
+    </ThemeProvider>
   );
 }
