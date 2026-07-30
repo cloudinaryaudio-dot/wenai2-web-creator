@@ -15,3 +15,5 @@ export { default as AdminService } from "./admin/AdminService";
 
 export { buildInvitationViewModel } from "./invitation/viewModel";
 export { useInvitationViewModel } from "./invitation/useInvitationViewModel";
+export { useShare } from "./share/useShare";
+
