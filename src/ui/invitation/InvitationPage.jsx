@@ -1,22 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import { loadInvitation } from "../../lib/invitation/invitationLoader";
+import { useInvitationViewModel } from "../../application";
 import InvitationRenderer from "./InvitationRenderer";
 import NotFound from "../Utility/NotFound";
 
 export default function InvitationPage() {
   const { id = "default" } = useParams();
   const navigate = useNavigate();
-  const [invitation, setInvitation] = useState(undefined);
+  // The page invokes the application layer only — no orchestration here.
+  const { viewModel, loading } = useInvitationViewModel(id);
 
-  useEffect(() => {
-    // Read via the loader — the page never touches the storage layer directly.
-    setInvitation(loadInvitation(id));
-  }, [id]);
+  if (loading) return null;
+  if (!viewModel || !viewModel.visible) return <NotFound />;
 
-  if (invitation === undefined) return null;
-  if (!invitation) return <NotFound />;
+
 
   return (
     <div className="relative">
@@ -26,7 +24,7 @@ export default function InvitationPage() {
       >
         <ArrowLeft className="w-4 h-4" /> Back
       </button>
-      <InvitationRenderer invitation={invitation} />
+      <InvitationRenderer invitation={viewModel.invitation} themeId={viewModel.themeId} />
     </div>
   );
 }
